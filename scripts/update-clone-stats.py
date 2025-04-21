@@ -17,7 +17,7 @@ clones = data.get("count", 0)
 uniques = data.get("uniques", 0)
 
 # Read README
-with open("README.md", "r") as file:
+with open("README.md", "r", encoding="utf-8") as file:
     readme = file.read()
 
 # Replace placeholder
@@ -30,5 +30,5 @@ updated_readme = re.sub(
 )
 
 # Save README
-with open("README.md", "w") as file:
+with open("README.md", "w", encoding="utf-8") as file:
     file.write(updated_readme)
