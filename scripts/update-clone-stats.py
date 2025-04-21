@@ -22,7 +22,12 @@ with open("README.md", "r") as file:
 
 # Replace placeholder
 new_stats = f"🔁 Repo cloned **{clones} times** by **{uniques} unique users** in the last 14 days 🚀"
-updated_readme = re.sub(r"🔁 Repo cloned \*\*.*?\*\* by \*\*.*?\*\*", new_stats, readme)
+updated_readme = re.sub(
+    r"(<!-- clone-stats-start -->).*?(<!-- clone-stats-end -->)",
+    rf"\1{new_stats}\2",
+    readme,
+    flags=re.DOTALL,
+)
 
 # Save README
 with open("README.md", "w") as file:
