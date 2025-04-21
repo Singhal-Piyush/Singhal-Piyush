@@ -13,7 +13,7 @@ Passionate Data Scientist with 3 years of hands-on experience in developing and 
 * 🤝  I'm open to collaborating on GEN AI, RAG and Agentic AI applications.
 
 * 📈  **Recent Project Activity:**  
-  🔁 Repo cloned **0 times** by **0 unique users** in the last 14 days 🚀 in the last 14 days 🚀 in the last 14 days 🚀 in the last 14 days 🚀 
+  🔁 Repo cloned **0 times** by **0 unique users** in the last 14 days 🚀 in the last 14 days 🚀 in the last 14 days 🚀 in the last 14 days 🚀 in the last 14 days 🚀 
 
 ### Skills
 
